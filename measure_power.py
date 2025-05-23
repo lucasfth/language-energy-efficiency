@@ -10,9 +10,9 @@ PROMETHEUS_URL = "http://localhost:9090"
 PROMQL = "sum(pi5_volt * ignoring(id) pi5_current)"
 ROOT_DIR = "."
 CSV_OUTPUT_FILE = "energy_results.csv"
-IDLE_POWER = 1.8 # W
+IDLE_POWER = 1.8 # This is the idle power of the device - which we found with Grafana.
 
-NUM_RUNS = 2
+NUM_RUNS = 2 # Number of runs to run the `run` part of the algorithms
 
 # ===== FIND EMOJI =====
 
